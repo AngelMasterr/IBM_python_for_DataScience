@@ -21,3 +21,12 @@ print(xlsx_path[["nombre", "apellido"]])
 print(xlsx_path.iloc[0,2])
 print(xlsx_path.loc[0,"edad"])
 
+# llamar un tramos de la tabla
+print(xlsx_path.iloc[0:2,0:2]) # iloc llega hata -1 del valor indicado
+print(xlsx_path.loc[0:2,"nombre":"apellido"]) # tenca en ceunta que loc si llega hasta el valor indicado
+
+# DataFrame: es una estructura de datos tabular bidimensional que consta de filas y columnas etiquetadas. 
+# En este caso, se ha creado un objeto DataFrame con dos columnas, 'a' y 'b', y tres filas, etiquetadas 
+# como 0, 1 y 2. Las columnas 'a' y 'b' contienen los valores [11, 21, 31] y [21, 22, 23], respectivamente.
+df = pd.DataFrame({'a':[11,21,31],'b':[21,22,23]})
+print(df.head())
