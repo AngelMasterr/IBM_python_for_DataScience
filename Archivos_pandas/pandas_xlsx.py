@@ -30,3 +30,6 @@ print(xlsx_path.loc[0:2,"nombre":"apellido"]) # tenca en ceunta que loc si llega
 # como 0, 1 y 2. Las columnas 'a' y 'b' contienen los valores [11, 21, 31] y [21, 22, 23], respectivamente.
 df = pd.DataFrame({'a':[11,21,31],'b':[21,22,23]})
 print(df.head())
+
+df = pd.DataFrame({'a':[1,2,1],'b':[1,1,1]})
+print(df['a']==1)
