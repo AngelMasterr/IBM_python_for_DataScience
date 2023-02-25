@@ -58,3 +58,4 @@ print(cadena_sen)
 # np.linespace(): crea una lista, indica donde empieza y termina y cuantos elemento va tener
 lista_space = np.linspace(-2, 2, 9) # la lista empuiza en -2 y termina en 2 y tiene un recorrido de 9 elementos
 print(lista_space) # [-2. -1.5 -1. -0.5  0.  0.5  1.  1.5  2.]
+
